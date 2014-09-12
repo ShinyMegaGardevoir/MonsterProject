@@ -1,0 +1,69 @@
+package monster.model;
+
+public class MashmallowMonster
+{
+	//Declaration Section
+	private String name;
+	private double numberOfLegs;
+	private double hairCount;
+	private int eyeCount;
+	private int noseCount;
+	private int armCount;
+	private boolean hasBellyButton;
+	
+	public MashmallowMonster()
+	{
+		
+	}
+	
+	public MashmallowMonster(String name, double numberOfLegs, double hairCount, int eyeCount, int noseCount, int armCount, boolean bellyButton)
+	{
+		this.name = name;
+		this.numberOfLegs = numberOfLegs;
+		this.hairCount = hairCount;
+		this.eyeCount = eyeCount;
+		this.noseCount = noseCount;
+		this.armCount = armCount;
+		this.hasBellyButton = bellyButton;
+		
+		
+	}
+	
+	
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public double getNumberofLegs()
+	{
+		return numberOfLegs;
+	}
+	
+	public double getHairCount()
+	{
+		return hairCount;
+	}
+	
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
+	
+	public int getNoseCount()
+	{
+		return noseCount;
+	}
+	
+	public int getArmCount()
+	{
+		return armCount;
+	}
+	
+	public boolean hasBellyButton()
+	{
+		return hasBellyButton;
+	}
+
+}
